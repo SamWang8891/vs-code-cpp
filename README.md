@@ -35,3 +35,4 @@ Besides using the configuration provided in this repository, you (probably) need
 
 ## Other note(s)
 The clang-format is from [Google](https://github.com/kehanXue/google-style-clang-format) but the `IndentWidth` changed to 4.
+This configuration file specified the compiler and clangd and such to use C++14, change the version as needed.
