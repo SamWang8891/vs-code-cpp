@@ -30,7 +30,7 @@ Besides using the configuration provided in this repository, you (probably) need
 
 #### Intellisense
 - When installing clangd, you'll get prompt whether to install clangd, hit install.
-- Use the key combination `Ctrl + Alt + F` to trigger auto format, choose clang-format if prompt.
+- Use the key combination `Shift + Alt + F` to trigger auto format, choose clang-format if prompt.
 
 
 ## Other note(s)
