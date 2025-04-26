@@ -1,0 +1,42 @@
+[
+  {
+    "directory": "C:/Projects/MyProject",
+    "command": "C:/msys64/mingw64/bin/g++.exe -std=c++14 -Wall -Wextra -g -Iinclude -IC:/msys64/mingw64/include -IC:/Libraries/boost_1_79_0 -DWIN32 -D_DEBUG -c src/main.cpp -o build/main.o",
+    "file": "src/main.cpp"
+  },
+  {
+    "directory": "C:/Projects/MyProject",
+    "command": "C:/msys64/mingw64/bin/g++.exe -std=c++14 -Wall -Wextra -g -Iinclude -IC:/msys64/mingw64/include -IC:/Libraries/boost_1_79_0 -DWIN32 -D_DEBUG -c src/utils.cpp -o build/utils.o",
+    "file": "src/utils.cpp"
+  },
+  {
+    "directory": "C:/Projects/MyProject",
+    "command": "C:/msys64/mingw64/bin/g++.exe -std=c++14 -Wall -Wextra -g -Iinclude -IC:/msys64/mingw64/include -IC:/Libraries/boost_1_79_0 -DWIN32 -D_DEBUG -c src/core/engine.cpp -o build/core/engine.o",
+    "file": "src/core/engine.cpp"
+  },
+  {
+    "directory": "C:/Projects/MyProject",
+    "arguments": [
+      "C:/msys64/mingw64/bin/g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-Iinclude",
+      "-IC:/msys64/mingw64/include",
+      "-IC:/Libraries/boost_1_79_0",
+      "-DWIN32",
+      "-D_DEBUG",
+      "-c",
+      "src/ui/window.cpp",
+      "-o",
+      "build/ui/window.o"
+    ],
+    "file": "src/ui/window.cpp"
+  },
+  {
+    "directory": "C:/Projects/MyProject",
+    "command": "C:/msys64/mingw64/bin/gcc.exe -std=c11 -Wall -Wextra -g -Iinclude -IC:/msys64/mingw64/include -DWIN32 -D_DEBUG -c src/platform/system.c -o build/platform/system.o",
+    "file": "src/platform/system.c"
+  }
+]

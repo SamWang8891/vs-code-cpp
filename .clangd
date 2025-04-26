@@ -1,0 +1,41 @@
+CompileFlags:
+  # Specify MinGW's C++ compiler as the driver
+  CompilationDatabase: ""
+  Add:
+    - "-std=c++14"
+    - "-Wall"
+    - "-Wextra"
+    - "-pedantic"
+    - "-x"
+    - "c++"
+    - "--target=x86_64-w64-mingw32"
+    # Include paths for MinGW headers
+    - "-IC:/msys64/mingw64/include"
+    - "-IC:/msys64/mingw64/include/c++/12.2.0"
+    - "-IC:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32"
+    - "-IC:/msys64/mingw64/include/c++/12.2.0/backward"
+    - "-IC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include"
+    - "-IC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
+
+Index:
+  StandardLibrary: true
+
+Diagnostics:
+  UnusedIncludes: Strict
+  ClangTidy:
+    Add: 
+      - modernize-*
+      - performance-*
+      - bugprone-*
+      - readability-*
+    Remove:
+      - modernize-use-trailing-return-type
+      - readability-magic-numbers
+
+InlayHints:
+  Enabled: true
+  ParameterNames: true
+  DeducedTypes: true
+
+Hover:
+  ShowAKA: true
